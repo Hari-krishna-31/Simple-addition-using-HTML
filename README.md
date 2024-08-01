@@ -1,1 +1,1 @@
-# Simple-addition-using-HTML
+# Simple-addition of numbers-using-HTML
