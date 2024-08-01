@@ -1,0 +1,24 @@
+<input id="NUM1" >
+<input ID="NUM2" >
+<BUtton onclick="resul()">ADD</BUtton>
+<P id="res">RESULT</P>
+
+<script>
+    var box1=document.getElementById("NUM1")
+    var box2=document.getElementById("NUM2")
+
+    var result=document.getElementById("res")
+      
+    function resul()
+    {
+        var box1value=Number(box1.value)
+        var box2value=Number(box2.value)
+
+        
+        var total=box1value+box2value
+
+        result.textContent=total   
+
+    }
+   
+</script>
